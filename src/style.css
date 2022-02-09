@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body
+{
+    margin: 0;
+    background-color: hsl(248, 5%, 70%);
+}
+
+#card
+{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: hsla(0, 0%, 3%, 0.815);
+    color: white;
+}
+
+#card:hover
+{
+    transform: skewY(-20deg);
+}
+
+.profile-img
+{
+    width: 100%;
+    height: 240px;
+}
+
+#name
+{
+    font-family: 'Playfair Display', serif;
+}
+
+h1
+{
+    font-size: calc(20px + 0.8vw);
+}
+
+h2
+{
+    font-size: calc(15px + 0.5vw);
+}
+
+h3
+{
+    font-size: calc(15px + 0.2vw);
+    font-family: 'Shizuru', cursive;
+}
+
+p
+{
+    font-size: calc(10px + 0.4vw);
+    font-family: 'PT Serif', serif;
+}
+
+#portfolio-btn, #linkedln-btn
+{
+    margin: 0 calc(5px + 0.5vw);
+    padding: calc(3px + 0.5vw) calc(10px + 0.5vw);
+    border-style: none;
+    border-radius: 10%;
+    font-size: calc(10px + 0.5vw);
+    font-weight: 500;
+}
+
+#portfolio-btn
+{
+    background-color: hsla(45, 22%, 96%, 0.801);
+}
+
+#linkedln-btn
+{
+    background-color: hsl(213, 63%, 43%);
+    color: white;
+}
+
+#portfolio-btn:active, #linkedln-btn:active
+{
+    transform: scale(0.75);
+    border: solid black 3px;
+}
+
+#portfolio-btn:hover, #linkedln-btn:hover, .fa-github:hover
+{
+    opacity: 0.8;
+}
+
+.fa-github
+{
+    font-size: calc(20px + 1vw);
+    background-color: black;
+    color: white;
+}
+
+.fa-github:active
+{
+    transform: scale(0.75);
+}
