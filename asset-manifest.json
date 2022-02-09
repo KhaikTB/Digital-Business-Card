@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Raikneroz/Digital-Business-Card/static/css/main.f38ba8f4.css",
+    "main.js": "/Raikneroz/Digital-Business-Card/static/js/main.43cf8e8b.js",
+    "static/media/Tiago.jpg": "/Raikneroz/Digital-Business-Card/static/media/Tiago.f36443c11fa08f404e7f.jpg",
+    "index.html": "/Raikneroz/Digital-Business-Card/index.html",
+    "main.f38ba8f4.css.map": "/Raikneroz/Digital-Business-Card/static/css/main.f38ba8f4.css.map",
+    "main.43cf8e8b.js.map": "/Raikneroz/Digital-Business-Card/static/js/main.43cf8e8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38ba8f4.css",
+    "static/js/main.43cf8e8b.js"
+  ]
+}
